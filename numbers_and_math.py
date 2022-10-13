@@ -25,7 +25,7 @@
 # print(f"That means {11 / 33} % are girls...")
 # print("and {} % are boys.".format((33 - 11) / 33))
 # print()
-# print("If we made groups of six...")
+# print("If we made groups of six...")o
 # print(f"There would be {33 // 6} groups of six.")
 # print(f"And then a smaller group of {33 % 6} people.")
 # print("-" * 100)
@@ -36,6 +36,9 @@
 # print("If we charged each person $2 each for their 5 apples..")
 # print("they would each pay ${}.".format(2 * 5))
 # print(f"they would each pay ${2 * 5}.")
+
+
+from cgi import print_directory
 
 
 number_of_banana = input("how many banana did you eat?")
