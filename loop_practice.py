@@ -7,12 +7,12 @@
             # start, stop, step
 # for q in range(10, -11, -2):
 #     print(f"x = {q}")
-for q in range(1, 11, 1):
-    print(f"{q}", end = " ,")
+# for q in range(1, 11, 1):
+#     print(f"{q}", end = " ,")
 # f = format
 
-#  result = 0
-# for w in range(1, 11):
-#     old_result = result
-#     result = result + w
-#     print(f"{old_result}+{w}={result}")
+result = 0
+for w in range(1, 11):
+    old_result = result
+    result = result + w
+    print(f"{old_result}+{w}={result}")
