@@ -5,10 +5,10 @@
 # for i in '101':   COMMON ERROR
 #     print("**********")
             # start, stop, step
-for q in range(10, -11, -2):
-    print(f"x = {q}")
-# for q in range(1, 11, 1):
-#     print(f"{q}")
+# for q in range(10, -11, -2):
+#     print(f"x = {q}")
+for q in range(1, 11, 1):
+    print(f"{q}", end = " ,")
 # f = format
 
 #  result = 0
