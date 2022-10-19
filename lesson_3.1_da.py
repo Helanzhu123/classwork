@@ -18,3 +18,6 @@ while True:
     if answer == correct_answer:
         print("good job")
         break
+    else:
+        print("try again")
+        print()
