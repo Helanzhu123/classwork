@@ -15,5 +15,4 @@ while True:
         print("TOO LOW")
     elif number < user_answer:
         print("TOO HIGH")
-    # track down how many times did user tried
 # count = count + 1 is same as count += 1
