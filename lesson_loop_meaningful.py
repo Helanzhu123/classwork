@@ -1,12 +1,12 @@
 # for number in range(1, 11):
 #     if number == 4:
 #         continue
-#     print(number, end = ", ")
+#     print(number, end = " ")
 
 # for number in range(1, 21):
 #     if number == 4 or number == 13 or number == 14:
 #         continue
-#     print(number, end = ", ")
+#     print(number, end = " ")
 
 # count = 0
 # while count < 20: 
