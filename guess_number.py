@@ -8,8 +8,8 @@ while True:
     count += 1
     if number == user_answer:
         print(f"GOOD JOB MY BUDDY!The answer is {number}!")
-        print("Thank You for playig this game my buddy")  
         print(f"You tried {count} times in total.")
+        print("Thank You for playig this game my buddy")  
         break
     elif number > user_answer:
         print("TOO LOW")
