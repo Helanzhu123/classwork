@@ -44,4 +44,21 @@
 #         sum = sum + number
 #     number = number + 1
 
+number = 45
+while number <= 45:
+    print(number)
+    number -= 1
+    if number == 32:
+        break
+print("-----------------------------------")
+for number in range(45, 32, -1):
+    print(number)
 
+
+
+count = 0
+while True:
+    print("Repeat")
+    count += 1
+    if count == 3:
+        break
