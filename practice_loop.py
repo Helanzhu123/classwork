@@ -1,32 +1,29 @@
-i = 1000
-sum = 0
-
-while i <= 1500:
-    if i % 9 == 0:
-        print(f"sum is {sum}")
-        sum += i
-    i += 1
-
-print(f"sum is {sum}")
-
-print("-------------------------")
-
+# i = 1000
 # sum = 0
-# for number in range(1000, 1501):
-#     if number % 9 == 0:
-#         print(sum)
-#         sum = sum + number
-#     number += 1
 
+# while i <= 1500:
+#     if i % 9 == 0:
+#         print(f"sum is {sum}")
+#         sum += i
+#     i += 1
+
+# print(f"sum is {sum}")
+
+# print("-------------------------")
+
+sum = 0
+for number in range(1000, 1501):
+    if number % 9 == 0:
+        print(sum)
+        sum = sum + number
+    number += 1
 # number = 45
-# while number <= 45:
-#     print(number)
+# while number >= 33:
+#     print(number, end = " ")
 #     number -= 1
-#     if number == 32:
-#         break
 # print("-----------------------------------")
 # for number in range(45, 32, -1):
-#     print(number)
+#     print(number, end = " ")
 
 # print("-------------------------------")
 
@@ -41,10 +38,10 @@ print("-------------------------")
 # for number in range(1, 101, 3):
 #     if number == 33:
 #         continue
-#     elif 100 % 7 == 0:
+#     elif number % 7 == 0:
 #         continue
-#     elif number != 7:
-#         print(number)
+#     else:
+#         print(number, end = " ")
 # print("-------------------------------------------")
 # number = -2
 # while number <100: 
@@ -54,4 +51,5 @@ print("-------------------------")
 #     elif 100 % 7 == 0:
 #         continue
 #     elif number != 7:   
-#         print(number)
+#         continue
+#     print(number)
