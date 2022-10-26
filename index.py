@@ -16,7 +16,6 @@ print(count)
 # index starts from 0 but starts at -1 from the other side, but len starts from 1
 
 good_question = "how old are you??!"
-count = 0
 pick = good_question[0]
 pick_1 = good_question[1]
 pick_2 = good_question[17]
