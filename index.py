@@ -19,7 +19,7 @@ good_question = "how old are you??!"
 pick = good_question[0]
 pick_1 = good_question[1]
 pick_2 = good_question[17]
-pick_3 = good_question[len(good_question) -1]
+pick_3 = good_question[-1]
 pick_5 = good_question[-5]
 print(pick, pick_1, pick_2, pick_3, pick_5)
 

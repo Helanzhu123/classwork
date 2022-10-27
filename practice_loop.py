@@ -40,15 +40,13 @@ for number in range(1, 101, 3):
         continue
     elif number % 7 == 0:
         continue
-    else:
-        print(number, end = " ")
+    print(number, end = " ")
 print("-------------------------------------------")
 number = -2
-while number <100: 
+while number < 100: 
     number += 3
     if number == 33:
         continue
     elif number % 7 == 0:
         continue
-    else:
-        print(number)
+    print(number)
