@@ -22,9 +22,13 @@ for i in range(len(my_list)):
 print("-----SLICING-----")
 print(my_list)
 
-print(my_list[3:5])
+
+
+print(my_list[3:5])      #very important
 print(my_list[0:len(my_list):2])
 print(my_list[0:6:2])
+
+
 
 print("------------------")
 
@@ -32,3 +36,15 @@ print(my_list[2:])    #from 2, give everything else in the line
 print(my_list[:5])
 
 print(my_list[::-1]) #reverse a list
+
+friends = ["Jolyne", "Sanji", "L"]
+print(friends)
+friends.append("Kitagawa")
+friends.append("Edogawa")
+print(friends)
+
+print(friends[0])
+print(friends[-5])
+print("-----------")
+pick = friends[0]
+print(pick)
