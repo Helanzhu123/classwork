@@ -13,7 +13,7 @@ print(count)
 #         count += 1
 # print(count)
 
-# index starts from 0 but starts at -1 from the other side, but len starts from 1
+# index starts from 0 but starts at -1 from the other side, but len starts from 1 那没事了。。。
 
 good_question = "how old are you??!"
 pick = good_question[0]

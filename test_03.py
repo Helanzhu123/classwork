@@ -1,6 +1,3 @@
-from ctypes.wintypes import WORD
-
-
 for number in range(15, 46, 7):
     print(number)
 print("-----------------")
