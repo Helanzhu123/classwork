@@ -33,8 +33,8 @@ print(my_list[0:6:2])
 print("------------------")
 #also very important
 print(my_list[2:])    #from 2, give everything else in the line
-print(my_list[:5])
-
+print(my_list[:5]) #?
+ 
 print(my_list[::-1]) #reverse a list
 
 print("-----------------")

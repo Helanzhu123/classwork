@@ -17,7 +17,7 @@ print(my_list)
 for item in my_list:
     if item == 88:
         print("The list contains 88")
-        
+
 
 print("--------------------")
 print(0 in my_list) #check if the list contain a specific element/item or not 
