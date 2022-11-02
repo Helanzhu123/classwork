@@ -20,7 +20,7 @@ for item in my_list:
 
 
 print("--------------------")
-print(0 in my_list) #check if the list contain a specific element/item or not 
+print(88 in my_list) #check if the list contain a specific element/item or not 
 print("--------------------")
 x = 0 in my_list #same with above
 print(x)
@@ -28,3 +28,5 @@ print(x)
 #replace is not a function for list's data type
 my_list[1] = "Japan"
 print(my_list)
+
+my_list[1] = "China"
