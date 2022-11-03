@@ -12,8 +12,8 @@ i = 0
 while i < len(friends):
     name = friends[i].lower()
     print(f"i: {i}, name: {name}")
-    if name == "jonathan":
-        friends[i] = "Higashikata"
+    if name == "josuke":
+        friends[i] = "東方"
         break
     i += 1
 
