@@ -1,5 +1,6 @@
-# for n in range(5):
-#     print(n)
+for n in range(5):
+    print(n, end=" ")
+print("\n")
 
 # numbers = []
 # for n in range(5, 51, 3):
@@ -20,3 +21,4 @@ for i in range(len(numbers)):
     numbers[i] = num
 
 print(numbers)
+

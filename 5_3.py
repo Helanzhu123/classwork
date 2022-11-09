@@ -18,3 +18,4 @@ while i < len(friends):
     i += 1
 
 print(friends)
+

@@ -30,3 +30,7 @@ my_list[1] = "Japan"
 print(my_list)
 
 my_list[1] = "China"
+print(my_list)
+
+my_list[0] = 9
+print(my_list)
