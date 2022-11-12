@@ -37,7 +37,7 @@ print(my_list)
 my_list.clear() #Remove everything from a list
 print(my_list)
 
-
+print("---------------------------")
 # pass occupied the place, a place holder. Does not make the code go wrong. Ex: if statment
 # def gigi(): #use def to create one's own function
 new_list = ["Jonathan", 2, "Banada", "Apple", "bullets", 7, "Apple"]
@@ -45,4 +45,5 @@ print(new_list.index('Apple')) # index finds the index number of an item, it is 
 print(new_list.index(7)) #index only prints the first item if has more than one, and it will go error if an item does not exist
 
 print(new_list.count('Apple')) # counts the number of time this item appears in the list, it is also case sensitive
+
 

@@ -26,6 +26,7 @@ print("---------------")
 count = 0
 for q in scores:
     count += q
+print(q) #The last item
 print(count)
 print(count//len(scores)) #one divide with decimal
 
@@ -35,3 +36,4 @@ print(sum(scores)//len(scores)) #also average of list
 print("------------------")
 
 print(scores.index(max(scores))) #locate the highest number
+

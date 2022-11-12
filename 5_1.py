@@ -56,5 +56,7 @@ print("----------------")
 print(friends[1:5])
 print(friends[0:len(friends):3])
 print(friends[0:5:2])
+print("-------------")
 
-
+postitions = [[45, 55], [50, 54], [100, 105]]
+print(postitions[2][0])
