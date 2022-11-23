@@ -8,8 +8,8 @@ add(8,9)
 
 
 def say_hi(name):
-    print(f"Hello! {name}")
-say_hi("Levi")
-say_hi("Jonathan")
-say_hi("Mikasa")
+    print(f"ヨ！ {name}")
+say_hi("リヴァイ")
+say_hi("ジョナサン")
+say_hi("ミカサ")
 

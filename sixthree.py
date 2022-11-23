@@ -1,28 +1,28 @@
-# import random
+import random
 
-# def main():
-#     print("Hello")
-#     name = input("Enter your name: ")
-#     num = random.randint(1, 11)
+def main():
+    print("Hello")
+    name = input("Enter your name: ")
+    num = random.randint(1, 11)
 
-#     print(name)
-#     print(num)
-# if __name__ == "__main__":
-#     main()
+    print(name)
+    print(num)
+if __name__ == "__main__":
+    main()
 
-# print("--------------------------")
+print("--------------------------")
 
-# def plus_five(n):
-#     return n + 5
+def plus_five(n):
+    return n + 5
 
-# def main():
-#     result = plus_five(10)
-#     print(result)
+def main():
+    result = plus_five(10)
+    print(result)
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
-# print("--------------------------")
+print("--------------------------")
 
 from typing import List
 
