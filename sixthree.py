@@ -34,3 +34,4 @@ def count_evens(nums: List[int])-> int:
     return even
 result = count_evens([2, 1, 2, 3, 4])
 print(f"There are {result} even numbers in the list")
+

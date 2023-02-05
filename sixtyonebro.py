@@ -17,16 +17,28 @@
 
 # ex: central process unit, take the first letter of the words and compared them: CPU. Acronym/Abbrieation
 #IMPORTANT
-def acronym(sentence:str)-> str:
+# def acronym(sentence:str)-> str:
+#     y = ""
+#     sentence_list = sentence.split(" ")
+#     for word in sentence_list:
+#         y += word[0].upper() 
+#     return y
+
+# sentence = input("Your sentence: ")
+# y = acronym(sentence) #this is a return value
+# print(y)
+
+def abbr(sentence:str)->str:
     y = ""
     sentence_list = sentence.split(" ")
     for word in sentence_list:
-        y += word[0].upper() 
+        y += word[0].upper()
     return y
-
+    
 sentence = input("Your sentence: ")
-x = acronym(sentence) #this is a return value
+x = abbr(sentence)
 print(x)
+
 
 
 
