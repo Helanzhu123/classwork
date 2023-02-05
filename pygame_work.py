@@ -18,3 +18,4 @@ def sell(price, number):
     print(f"Your total cost is ${final_price}")
 number = int(input("How many tickets do you want to buy? "))
 sell(13.95, number)
+
